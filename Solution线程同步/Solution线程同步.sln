@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "锁", "锁\锁.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mutex", "Mutex\Mutex.csproj", "{D121D7D8-97F6-4509-8FF3-317935D0AEBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskDemo", "TaskDemo\TaskDemo.csproj", "{C4627304-93E1-4354-849D-A998DD2145A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{D121D7D8-97F6-4509-8FF3-317935D0AEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D121D7D8-97F6-4509-8FF3-317935D0AEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D121D7D8-97F6-4509-8FF3-317935D0AEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4627304-93E1-4354-849D-A998DD2145A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4627304-93E1-4354-849D-A998DD2145A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4627304-93E1-4354-849D-A998DD2145A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4627304-93E1-4354-849D-A998DD2145A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +57,7 @@ Global
 		{265D2E79-5F9B-4D9A-89EE-A80CE20F6BDF} = {87DAEFF2-F27C-45E5-B81E-B037E003F993}
 		{CFC272C1-8089-4915-9F84-3DBF1CF57E66} = {A1AC3DF4-F21B-4FED-8FF3-561224E497F8}
 		{D121D7D8-97F6-4509-8FF3-317935D0AEBD} = {A1AC3DF4-F21B-4FED-8FF3-561224E497F8}
+		{C4627304-93E1-4354-849D-A998DD2145A4} = {87DAEFF2-F27C-45E5-B81E-B037E003F993}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D57B4C9B-9208-4B29-A55E-1B1CE49C2689}
