@@ -3,9 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "简易阻止方法", "简易阻止方法", "{771B56AC-1A41-4630-9F83-421FFAAB535F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "锁系统", "锁系统", "{A1AC3DF4-F21B-4FED-8FF3-561224E497F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "信号系统", "信号系统", "{D1746239-68A7-450D-BCED-4C5F29C2379B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "非阻止同步系统", "非阻止同步系统", "{977B3767-DF2D-4D76-BEAD-B50CDED2D69C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "线程同步", "线程同步", "{3E8700A5-4A61-41E4-9343-D5C8DF60027A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "线程的使用", "线程的使用", "{87DAEFF2-F27C-45E5-B81E-B037E003F993}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{265D2E79-5F9B-4D9A-89EE-A80CE20F6BDF}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{265D2E79-5F9B-4D9A-89EE-A80CE20F6BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265D2E79-5F9B-4D9A-89EE-A80CE20F6BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265D2E79-5F9B-4D9A-89EE-A80CE20F6BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265D2E79-5F9B-4D9A-89EE-A80CE20F6BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{771B56AC-1A41-4630-9F83-421FFAAB535F} = {3E8700A5-4A61-41E4-9343-D5C8DF60027A}
+		{A1AC3DF4-F21B-4FED-8FF3-561224E497F8} = {3E8700A5-4A61-41E4-9343-D5C8DF60027A}
+		{D1746239-68A7-450D-BCED-4C5F29C2379B} = {3E8700A5-4A61-41E4-9343-D5C8DF60027A}
+		{977B3767-DF2D-4D76-BEAD-B50CDED2D69C} = {3E8700A5-4A61-41E4-9343-D5C8DF60027A}
+		{265D2E79-5F9B-4D9A-89EE-A80CE20F6BDF} = {87DAEFF2-F27C-45E5-B81E-B037E003F993}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D57B4C9B-9208-4B29-A55E-1B1CE49C2689}
